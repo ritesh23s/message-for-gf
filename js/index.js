@@ -20,7 +20,7 @@ updateMaxValues();
 window.addEventListener("resize", updateMaxValues);
 
 yesBtn.addEventListener("click", () => {
-    question.innerHTML = "Yay, see you tomorrow! 💙💖💙";
+    question.innerHTML = "Thank You!! 😘, see you tomorrow! 💙💖💙";
     gif.src = "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
 });
 
