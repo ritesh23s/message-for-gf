@@ -36,4 +36,4 @@ function playSound(audioName){
     let audio = new Audio(audioName);
     audio.play();
 }
-playSound("img\alertsong.mp3")
+playSound("img\alertsong.mp3");
