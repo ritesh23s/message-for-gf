@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Pacifico&family=Updock&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -9,8 +11,9 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: whitesmoke;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-color: whitesmoke; */
+    background: linear-gradient(45deg, #c8dd08, #ff00f7);
+    
 }
 
 .wrapper {
@@ -26,8 +29,9 @@ body {
 
 h2 {
     font-size: 1.5em;
-    color: red;
+    color: rgb(0, 187, 255);
     margin: 15px 0;
+    font-family: "Oleo Script", system-ui;
 }
 
 .btn {
