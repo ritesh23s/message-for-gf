@@ -1,4 +1,4 @@
-alert("Please Give Your Response");
+alert("Please Give Your Response Cutiepie");
 
 const wrapper = document.querySelector(".wrapper");
 const question = document.querySelector(".question");
@@ -20,7 +20,7 @@ updateMaxValues();
 window.addEventListener("resize", updateMaxValues);
 
 yesBtn.addEventListener("click", () => {
-    question.innerHTML = "Yay, see you tomorrow! ❤️❤️";
+    question.innerHTML = "Yay, see you tomorrow! 💙💖💙";
     gif.src = "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
 });
 
@@ -38,3 +38,11 @@ noBtn.addEventListener("mouseenter", () => {
 // }
 
 // playSound("alertsong.mp3");
+
+// let play = document.getElementById("play");
+// function playMusic(){
+//     let audio = new Audio("alertsong.mp3");
+//     audio.play()
+// }
+
+// play.addEventListener("click", playMusic);
