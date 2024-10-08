@@ -29,6 +29,7 @@ body {
 
 h2 {
     font-size: 1.5em;
+    /* color: rgb(0, 187, 255); */
     color: black;
     margin: 15px 0;
     font-family: "Oleo Script", system-ui;
