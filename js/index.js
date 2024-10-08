@@ -31,3 +31,9 @@ noBtn.addEventListener("mouseenter", () => {
     noBtn.style.left = randomX + "px";
     noBtn.style.top = randomY + "px";
 });
+
+function playSound(audioName){
+    let audio = new Audio(audioName);
+    audio.play();
+}
+playSound("img\alertsong.mp3")
